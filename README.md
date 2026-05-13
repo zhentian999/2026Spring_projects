@@ -27,3 +27,15 @@ H3 :Approach distance is the strongest predictor of composite threat scores comp
 NASA CNEOS Close Approach Database (2015–2035), including close approach dates, distances, velocities, and orbital uncertainty bounds. https://cneos.jpl.nasa.gov/ca/ Links to an external site.
 
 JPL Small-Body Database — Near-Earth Asteroids 2025, including physical properties (diameter, albedo), orbital elements (eccentricity, inclination, MOID), PHA designation, and observational arc data for 41,281 known near-Earth objects. https://ssd.jpl.nasa.gov/tools/sbdb_query.html Links to an external site.
+
+# get started:
+1.pip install pandas numpy matplotlib seaborn scipy scikit-learn
+2. Run the script
+The script must be run from inside the Data/ folder — it uses relative paths to load the CSV files, so running it from the repo root will cause a FileNotFoundError.
+3. Expected console output
+The script prints progress and results as it runs, including:
+Dataset shapes and missing value reports
+Top 10 and Top 20 asteroid rankings
+Hypothesis test results (Pearson r, Welch's t, β coefficients)
+Sensitivity analysis (Spearman r and Top-20 overlap across weight configs)
+
