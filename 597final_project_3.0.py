@@ -36,8 +36,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import StandardScaler
 
 #read two data files
-df_app=pd.read_csv("asteroid_close_approaches_2015_2035 (1).csv")
-df_near=pd.read_csv("near_earth_asteroids_2025 (1).csv",low_memory=False)
+df_app=pd.read_csv("asteroid_close_approaches_2015_2035.csv")
+df_near=pd.read_csv("near_earth_asteroids_2025.csv",low_memory=False)
 # see rows&columns&dtypes
 print(df_app.shape)
 print(df_near.shape)
@@ -282,11 +282,6 @@ top20.to_csv("top20_asteroid_threats_2026_2035.csv")
 # Save the full merged and scored dataset for future reference
 df.to_csv("asteroid_threat_full_dataset.csv", index=False)
 print(f"Full dataset saved: {df.shape[0]} rows, {df.shape[1]} columns")
-# Each figure before plt.show()
-plt.savefig("velocity_pha_comparison.png", dpi=150, bbox_inches="tight")
-plt.savefig("size_category_analysis.png", dpi=150, bbox_inches="tight")
-plt.savefig("correlation_heatmap.png", dpi=150, bbox_inches="tight")
-plt.savefig("approach_timeline.png", dpi=150, bbox_inches="tight")
 
 print("=" * 60)
 print("ANALYSIS SUMMARY: Asteroid Threat Assessment 2026-2035")
