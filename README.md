@@ -41,3 +41,13 @@ Top 10 and Top 20 asteroid rankings
 Hypothesis test results (Pearson r, Welch's t, β coefficients)
 Sensitivity analysis (Spearman r and Top-20 overlap across weight configs)
 
+# Acknowledge of AI Usage
+1. Suggested scientific and reasonable hypothesis 
+2. Explained how many steps and what to do in each step to do to analyze this topic
+3. Gave and explained code especially for feature engineering and data visualization and EDA
+4. Answered demand of evaluation part
+5. Translated English and Chinese, especially for some domain concept and background knowledge 
+6. Built docstrings for complex functions
+7. Gave arbitrary weighted composite threat score
+8. Explained and compared the different usage of Pearson r spearman, Welch t and linear regression model for evaluation part.
+
