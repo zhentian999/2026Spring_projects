@@ -51,7 +51,7 @@ Sensitivity analysis (Spearman r and Top-20 overlap across weight configs)
 7. Gave arbitrary weighted composite threat score
 8. Explained and compared the different usage of Pearson r spearman, Welch t and linear regression model for evaluation part.
 
-#citation
+# Citation
 Claude:
 https://claude.ai/share/353b52d9-8209-41da-a60c-f0f1e29a56d7
 https://claude.ai/share/87c1f0ac-c669-4bac-8122-3533d3c19839
